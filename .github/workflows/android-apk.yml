@@ -13,6 +13,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm install
+      - run: npm install @capacitor/core@7.4.3 @capacitor/android@7.4.3 @capacitor/cli@7.4.3
       - run: npm run build
       - run: npx cap add android
       - run: npx cap sync android

@@ -1,26 +1,25 @@
-# InstaClone
+# InstaClone — Native Android
 
-A responsive Instagram-inspired social media web app and installable PWA.
+An independent Instagram-inspired social media app built as a native Android application with Kotlin.
 
-## Included
-- Responsive home feed and stories
-- Likes and saves with local UI state
-- Search
-- Explore grid
-- Reels-style viewer
-- Messages and notifications screens
-- Profile and follow interaction
-- Create-post modal
-- Mobile bottom navigation
-- Desktop sidebar navigation
-- Dark, mobile-first interface
-- PWA manifest for Android home-screen installation
+## Stack
+- Kotlin
+- Android SDK
+- Android Views + Material Components
+- Gradle
+- Native Android architecture
 
-## Run locally
-```bash
-npm install
-npm run dev
-```
+## Included foundation
+- Home feed
+- Stories row
+- Explore/search
+- Reels-style section
+- Messages
+- Notifications
+- Profile
+- Create-post flow
+- Dark mobile-first UI
 
-## Note
-This is an independent clone project for learning and portfolio use. It does not use Instagram's proprietary branding or assets. Backend authentication, storage, and persistent social data can be connected later (for example with Supabase).
+Open this repository in Android Studio and sync the Gradle project.
+
+This is an independent learning/portfolio project and does not use Instagram proprietary branding or assets.
